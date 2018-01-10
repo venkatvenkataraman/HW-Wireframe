@@ -7,18 +7,26 @@
   text-align: center;
 }
 
-/* INSTRUCTOR: Here is the filled out version of the float activity */
 
 body {
-  font-size: 24px;
+  font-family: Verdana;
+  font-size: 15px;
   line-height: 32px;
-  color: #333;
+  color: #555;
+  background-color: #777;
 }
 
 header {
   padding: 20px;
   margin-bottom: 20px;
-  color: #333;
+  color: #555;
+  background: #ccc;
+}
+
+nav {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #555;
   background: #ccc;
 }
 
@@ -28,52 +36,56 @@ section {
   background: #ccc;
 }
 
-#left {
-  float: left;
-  width: 33.3%;
-  color: #fff;
-  background: #666;
-}
-
-#middle {
-  float: left;
-  width: 33.3%;
-  color: #fff;
-  background: #888;
-}
-
-#right {
-  float: left;
-  width: 33.3%;
-  color: #fff;
-  background: #666;
-}
-
 #full {
-  width: 100%;
+  width: 68%;
+  height: 280px;
   overflow: auto;
   clear: both;
   background: #eee;
+  float:left;
 }
 
-#division {
-  padding: 20px;
-  margin-top: 20px;
-  background: #6ea3da;
+#article{
+  width: 95%;
+  height: 180px;
+  overflow: auto;
+  clear: both;
+  color: #ccc;
+  background: #777;
+}
+
+#h1h2h3{
+  width: 80%;
+  margin-left: 20px;
+  padding-top: 5px;
+  height: 45px;
+  color: #555;
+  background: #ccc;
+}
+
+#p{
+  width: 80%;
+  margin-left: 20px;
+  padding-top: 5px;
+  height: 45px;
+  color: #555;
+  background: #ccc;
 }
 
 aside {
-  float: left;
-  width: 33%;
-  height: 200px;
+  float: right;
+  width: 30%;
+  height: 280px;
   padding: 20px;
-  margin-left: 30px;
+  margin-bottom: 20px;
   background: #fff;
   border: 1px solid #eee;
 }
 
 footer {
   padding: 20px;
-  clear: both;
+  margin-bottom: 20px;
+  color: #555;
   background: #ccc;
+  clear: both;
 }
